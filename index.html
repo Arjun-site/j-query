@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>j query</title>
+</head>
+
+<body>
+    <h1>good morning 1</h1>
+    <h1>good morning 2</h1>
+    <h1>good morning 3</h1>
+    <h1>good morning 4</h1>
+    <h1>good morning 5</h1>
+
+</body>
+<script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U="
+    crossorigin="anonymous"></script>
+<script>
+    console.log($);
+    $('h1').click(function () {
+        console.log("button click hua");
+        $(this).hide();
+    })
+</script>
+
+</html>
